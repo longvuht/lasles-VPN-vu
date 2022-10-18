@@ -1,0 +1,14 @@
+.plan {
+  padding: 80px 0 150px;
+  background-color: $gray-light-color;
+  &-header {
+    max-width: 555px;
+    margin: 0 auto 60px;
+    text-align: center;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repear(3, 1fr);
+    grid-gap: 0 60px;
+  }
+}

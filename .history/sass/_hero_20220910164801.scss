@@ -1,0 +1,33 @@
+.hero {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  &-content {
+    width: 100%;
+    max-width: 555px;
+  }
+  &-image {
+    position: absolute;
+  }
+
+  &-heading {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: calc(70 / 50);
+    color: $heading-color;
+    strong {
+      font-weight: 700;
+    }
+  }
+  &-desc {
+    line-height: calc(30 / 16);
+    margin-bottom: 50px;
+    strong {
+      font-weight: 500;
+    }
+  }
+}

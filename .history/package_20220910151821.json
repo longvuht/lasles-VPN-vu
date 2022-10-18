@@ -1,0 +1,14 @@
+{
+  "name": "lasles-vpn",
+  "version": "1.0.0",
+  "description": "landing page for lasles vpn",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node:sass sass/app.scss css/style.css"
+  },
+  "author": "longvu",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
